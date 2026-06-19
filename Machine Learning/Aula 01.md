@@ -165,12 +165,12 @@ plt.show()
 ---
 
 ### Passo 4 — Fechamento da prática 
-Reforçar: ainda não treinamos nenhum modelo — só **exploramos** os dados (etapas 2-3 do ciclo de vida visto no Bloco 4).
+Ainda não treinamos nenhum modelo — só **exploramos** os dados (etapas 2-3 do ciclo de vida visto no Bloco 4).
 
 ---
 
 ## Bloco 7 — Encerramento 
-- Recapitular os 3 tipos de aprendizado e o ciclo de vida.
+- Quais são os 3 tipos de aprendizado e o ciclo de vida?
 - Apresentar a lista de exercícios (tarefa para casa).
 - Prévia da Aula 2: matemática essencial (vetores, distâncias, médias).
 
