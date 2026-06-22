@@ -1,0 +1,47 @@
+1-O que é Machine Learning?
+
+2-Explique a diferença entre: X e y?
+
+3-O que faz esta linha?
+import pandas as pd
+
+4-O que é um DataFrame?
+
+5- Explique:
+modelo.fit(X, y)
+
+Desafio
+Altere os dados para prever:
+Horas Estudo	Aprovado
+1	0
+2	0
+3	0
+4	1
+5	1
+6	1
+Crie um modelo que responda:
+Um aluno que estudou 5 horas será aprovado?
+
+RESPOSTAS:
+
+1-É lugar onde inteligência artificial aprende padrões a partir de exemplos.
+2-O x representa entrada e y representa resposta.
+3- Traz uma biblioteca para o programa.
+4- É a estrutura mais importante do Pandas como se fosse planilha de excel.
+5- Modelo fit é um ajuste ,onde o algoritmo observa x e compara com y tentando descobrir padrões.
+
+DESAFIO:
+
+import pandas as pd
+
+from sklearn.tree import DecisionTreeClassifier
+
+ X = [[1], [2], [3], [4], [5], [6]]
+ y = [0, 0, 0, 1, 1, 1]
+
+modelo = LogisticRegression()
+modelo.fit(X, y)
+
+resultado = modelo.predict([[5]])
+
+print(resultado)
